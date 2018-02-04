@@ -608,6 +608,12 @@
 		position: relative;
 	}
 
+	.ImageBorder {
+		border-width: 4px;
+		border-color: White;
+		border-style: solid;
+	}
+
 		.image:before {
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
@@ -1230,9 +1236,9 @@
 
 		#header .logo {
 			width: 608px;
-			height: 375px;
+			height: 373px;
 			line-height: 5.5rem;
-			border: solid 4px #ffffff;
+			border: solid 0px #ffffff;
 			border-radius: 0%;
 		}
 
@@ -1380,7 +1386,7 @@
 
 			#header .logo {
 				width: 600px;
-				height: 367px;
+				height: 373px;
 				line-height: 4.75rem;
 			}
 
