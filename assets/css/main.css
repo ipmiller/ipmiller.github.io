@@ -1158,7 +1158,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
-				padding: 3rem 2rem;
+				padding: 1rem 2rem;
 			}
 
 		}
@@ -1166,7 +1166,7 @@
 		@media screen and (max-width: 736px) {
 
 			#wrapper {
-				padding: 2rem 1rem;
+				padding: 1rem 1rem;
 			}
 
 		}
