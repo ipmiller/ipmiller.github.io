@@ -2015,6 +2015,64 @@
 			display: none;
 		}
 
+	.fab {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.fab:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			/*font-family: FontAwesome;*/
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.fab > .label {
+			display: none;
+		}
+
+	.fas {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.fas:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			/*font-family: FontAwesome;*/
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.fas > .label {
+			display: none;
+		}
+
+
+	.far {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.far:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			/*font-family: FontAwesome;*/
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.far > .label {
+			display: none;
+		}
+
 /* Image */
 
 	.image {
