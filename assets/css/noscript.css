@@ -1,0 +1,38 @@
+/* Transitions */
+
+.onload {
+    -moz-transition: none;
+    -webkit-transition: none;
+    -ms-transition: none;
+    transition: none;
+}
+
+.onload h1 {
+    -moz-transition: none;
+    -webkit-transition: none;
+    -ms-transition: none;
+    transition: none;
+}
+
+body.is-preload .onload h1 {
+    opacity: 1;
+}
+
+
+.onload .image {
+    -moz-transition: none;
+    -webkit-transition: none;
+    -ms-transition: none;
+    transition: none;
+}
+
+.onload .image img {
+    -moz-transition: none;
+    -webkit-transition: none;
+    -ms-transition: none;
+    transition: none;
+}
+
+body.is-preload .onload .image img {
+    opacity: 1;
+}
