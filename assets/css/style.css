@@ -33,8 +33,13 @@ h1 {
 
 
 h2,
+p,
 footer {
     font-family: "Lato", sans-serif;
+}
+
+p {
+    display: none;
 }
 
 .container {
