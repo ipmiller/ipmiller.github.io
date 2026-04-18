@@ -4,7 +4,7 @@ Story by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 
 <head>
     <!-- Google tag (gtag.js) -->
@@ -17,7 +17,6 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         gtag('config', 'G-FCVFVPP42Z');
     </script>
     <meta charset="UTF-8">
-    <html lang="en">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -29,7 +28,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="msapplication-config" content="/favicon/browserconfig.xml">
     <meta name="theme-color" content="#377ba6">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Ian Miller | Music Director · Pianist · Arranger</title>
     <meta name="description"
         content="Ian Miller is a NYC-based theater music director and pianist. A versatile musician, Ian draws upon classical piano training and an extensive background in musical theater, as well as a love of gospel, jazz and R&B.">
@@ -49,7 +48,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     <link rel="stylesheet" href="../musician-assets/css/main.css" />
     <link rel="preconnect" href="https://youtube.com">
     <link rel="preconnect" href="https://static.doubleclick.net">
-    <link rel="preconnect" href="https://https://googleads.g.doubleclick.net">
+    <link rel="preconnect" href="https://googleads.g.doubleclick.net">
     <script src="../musician-assets/js/lazysizes.min.js" async=""></script>
     <script src="https://kit.fontawesome.com/414f558033.js" crossorigin="anonymous"></script>
     <noscript>
@@ -58,8 +57,9 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 </head>
 
 <body class="is-preload">
+    <a class="skip-link" href="#wrapper">Skip to main content</a>
     <!-- Wrapper -->
-    <div id="wrapper" class="divided">
+    <main id="wrapper" class="divided">
         <!-- About -->
         <section
             class="spotlight style1 fake-banner orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right color1 invert">
@@ -95,8 +95,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
             </div>
             <div class="image">
                 <picture>
-                    <source type="image/webp" srcset="images/about.webp" alt="Ian Miller headshot">
-                    <source type="image/jpeg" srcset="images/about.jpg" alt="Ian Miller headshot">
+                    <source type="image/webp" srcset="images/about.webp">
+                    <source type="image/jpeg" srcset="images/about.jpg">
                     <img src="images/about.jpg" alt="Ian Miller headshot">
                 </picture>
             </div>
@@ -112,11 +112,9 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
             </div>
             <div class="image">
                 <picture>
-                    <!-- <source type="image/webp" data-srcset="images/ccc.webp" class="lazyload"
-                        alt="Ian with the Juilliard Drama Division"> -->
-                    <source type="image/jpeg" data-srcset="images/ccc.jpg" class="lazyload"
-                        alt="Ian with the Juilliard Drama Division">
-                    <img data-src="images/images/ccc.jpg" class="lazyload" alt="Ian with the Juilliard Drama Division">
+                    <!-- <source type="image/webp" data-srcset="images/ccc.webp" class="lazyload"> -->
+                    <source type="image/jpeg" data-srcset="images/ccc.jpg" class="lazyload">
+                    <img data-src="images/ccc.jpg" class="lazyload" alt="Ian with the Juilliard Drama Division">
                 </picture>
             </div>
         </section>
@@ -208,22 +206,22 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                     <li><a href="https://www.instagram.com/musicianmiller/" target="_blank" rel="noopener"
                             class="icon brands style2 fa-brands fa-instagram"><span class="label">Instagram</span></a></li>
                     <li><a href="https://www.youtube.com/IanMillerMusic" target="_blank" rel="noopener"
-                            class="icon brands style2 fa-brands fa-youtube"><span class="label">LinkedIn</span></a></li>
+                            class="icon brands style2 fa-brands fa-youtube"><span class="label">YouTube</span></a></li>
                     <li><a href="https://soundcloud.com/musicianmiller" target="_blank" rel="noopener"
-                            class="icon brands style2 fa-brands fa-soundcloud"><span class="label">LinkedIn</span></a></li>
+                            class="icon brands style2 fa-brands fa-soundcloud"><span class="label">SoundCloud</span></a></li>
                     <li><a href="https://www.linkedin.com/in/ian-miller-98405170/" target="_blank" rel="noopener"
                             class="icon brands style2 fa-brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
                     <li><a href="https://musicianmiller.bandcamp.com/releases/" target="_blank" rel="noopener"
-                            class="icon style2 fa-brands fa-bandcamp"><span class="label">LinkedIn</span></a></li>
+                            class="icon style2 fa-brands fa-bandcamp"><span class="label">Bandcamp</span></a></li>
                     <li><a href="mailto:ian.phillip.miller@gmail.com" target="_blank" rel="noopener"
                             class="icon style2 fa-regular fa-envelope"><span class="label">Email</span></a></li>
                 </ul>
-                <p>&copy;2025, Ian Miller. | Design: <a href="https://html5up.net" target="_blank" rel="noopener">HTML5
+                <p>&copy; <span id="copyright-year">2026</span>, Ian Miller. | Design: <a href="https://html5up.net" target="_blank" rel="noopener">HTML5
                         UP</a> | Webmaster: <a href="https://lisker.me" target="_blank" rel="noopener">Paul Lisker</a>
                 </p>
             </div>
         </footer>
-    </div>
+    </main>
     <!-- Home button -->
     <a href="/"><button id="home-button" title="Home Page" class="fa-regular fa-circle-left"></button></a>
     <!-- Scripts -->
