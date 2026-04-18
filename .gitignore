@@ -31,3 +31,7 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+### Claude Code ###
+CLAUDE.md
+.claude/
+
