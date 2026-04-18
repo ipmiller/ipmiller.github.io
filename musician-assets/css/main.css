@@ -9052,3 +9052,34 @@ input, select, textarea {
 	#home-button:active {
 		background-color: #555;
 	}
+
+/* Skip link */
+
+	.skip-link {
+		position: absolute;
+		left: -9999px;
+		top: 0;
+		z-index: 10000;
+		background: #fff;
+		color: #000;
+		padding: 0.75em 1em;
+		font-weight: 700;
+		text-decoration: none;
+	}
+
+	.skip-link:focus {
+		left: 0;
+	}
+
+/* Reduced motion */
+
+	@media (prefers-reduced-motion: reduce) {
+
+		*, *::before, *::after {
+			animation-duration: 0.01ms !important;
+			animation-iteration-count: 1 !important;
+			transition-duration: 0.01ms !important;
+			scroll-behavior: auto !important;
+		}
+
+	}
