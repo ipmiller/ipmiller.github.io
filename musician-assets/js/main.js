@@ -10,6 +10,10 @@
 		$body = $('body'),
 		$wrapper = $('#wrapper');
 
+	// Copyright year.
+		var $year = document.getElementById('copyright-year');
+		if ($year) $year.textContent = new Date().getFullYear();
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1351px',  '1680px' ],
